@@ -1,0 +1,16 @@
+{
+  "name": "official-mcp",
+  "version": "1.0.0",
+  "description": "Official MCP Wrapper",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.3",
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "zod": "^3.23.8"
+  }
+}
